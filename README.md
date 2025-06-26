@@ -1,7 +1,7 @@
 # JAIROCloud_XML_DL
 JAIRO Cloudで公開しているリポジトリのメタデータを一括取得するPythonツール(JCmetadataDL.py)です。OAI-PMHプロトコルを使用してJPCOAR形式のXMLメタデータを収集できます。
 
-# [JCmetadataDL.py](https://github.com/hellboy84/JAIROCloud_XML_DL/blob/main/JCmetadataDL.py)
+# [JCmetadataDL.py](https://github.com/hellboy84/JAIROCloud_XML_DL/blob/main/JCmetadataDL.py) (メインプログラム)
 ## 事前作業
 - 'pip install sickle'  を行っておいて下さい。
 ## 使い方
@@ -19,7 +19,7 @@ JAIRO Cloudで公開しているリポジトリのメタデータを一括取得
 - 多分100件の取得に30秒ほどかかります。1万件だと50分ほどかかる計算です。時間に余裕を見て実行して下さい。
   - 件数が多い場合はツリーごとに分割して取得するなどして下さい(set_specの利用)。
 
-# [list_sets.py](https://github.com/hellboy84/JAIROCloud_XML_DL/blob/main/list_sets.py)
+# [list_sets.py](https://github.com/hellboy84/JAIROCloud_XML_DL/blob/main/list_sets.py) (おまけ)
 ## 事前作業
 - 'pip install sickle'  を行っておいて下さい。
 ## 使い方
