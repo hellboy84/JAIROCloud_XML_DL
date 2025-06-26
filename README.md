@@ -20,5 +20,15 @@ JAIRO Cloudで公開しているリポジトリのメタデータのXMLを取得
   - 件数が多い場合はツリーごとに分割して取得するなどして下さい(set_specの利用)。
 
 # [list_sets.py](https://github.com/hellboy84/JAIROCloud_XML_DL/blob/main/list_sets.py)
+## 事前作業
+- 'pip install sickle'  を行っておいて下さい。
+## 使い方
+- 以下の設定を施したあと，任意のディレクトリでこのpyを実行して下さい。
+## 設定
+- 「**base_url**」 に取得したいリポジトリのURLを入力して下さい。(例：https://toho.repo.nii.ac.jp)
+- 「**target_level**」に取得したい階層レベルを入力して下さい。初期は「0」になっており，最上位のみを取得します。（0=最上位、1=第1階層、None=全階層）
+## 動作内容補足
+- pyと同じディレクトリにtxtファイルが作成されます。
+  - ファイル名は「**sets_list_yyyymmddhhmmss.txt**」です。
 
 
