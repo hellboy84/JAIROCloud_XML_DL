@@ -48,8 +48,8 @@ with open(filename, 'w', encoding='utf-8') as f:
             f.flush()
         
         # 処理上限設定
-        if record_count >= 200:
-             break
+        # if record_count >= 200:
+        #     break
 
 print(f"処理完了: {record_count} 件のレコードを取得しました")
 print(f"出力ファイル: {filename}")
