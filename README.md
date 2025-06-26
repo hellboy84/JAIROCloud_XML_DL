@@ -34,7 +34,7 @@ JAIRO Cloudで公開しているリポジトリのメタデータを一括取得
 
 # 参考リンク
 - [NIMSのページのsickle利用例紹介](https://dice.nims.go.jp/services/MDR/manual/html/api.html#bulk-metadata-download)
-  - 基本的にはこの使用例を基にして簡易な機能を付与しただけの簡素なものです。
+  - このページの使用例に簡易な機能を付与したものがこのリポジトリのプログラムです。
 
 # 注記
 - xmlファイルは，VS Codeなどで「Shift + ALt + F」で構造が展開できます。(要拡張機能「XML Tools」など)
