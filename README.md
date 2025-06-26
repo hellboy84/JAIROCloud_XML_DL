@@ -1,0 +1,2 @@
+# JAIROCloud_XML_DL
+JAIRO Cloudで公開しているリポジトリのメタデータのXMLを取得するPythonプログラムです。
