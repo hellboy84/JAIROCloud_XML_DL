@@ -30,5 +30,12 @@ JAIRO Cloudで公開しているリポジトリのメタデータを一括取得
 ## 動作内容補足
 - pyと同じディレクトリにtxtファイルが作成されます。
   - ファイル名は「**sets_list_yyyymmddhhmmss.txt**」です。
+
+# 参考リンク
+- [NIMSのページのsickle利用例紹介](https://dice.nims.go.jp/services/MDR/manual/html/api.html#bulk-metadata-download)
+  - 基本的にはこの使用例を基にして簡易な機能を付与しただけの簡素なものです。
+
 # 注記
+- Shift + ALt + F
 - これらのコードの作成は生成AIのサポートを受けています。 
+
