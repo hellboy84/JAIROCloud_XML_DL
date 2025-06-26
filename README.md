@@ -20,6 +20,7 @@ JAIRO Cloudで公開しているリポジトリのメタデータを一括取得
   - 件数が多い場合はツリーごとに分割して取得するなどして下さい(set_specの利用)。
 
 # [list_sets.py](https://github.com/hellboy84/JAIROCloud_XML_DL/blob/main/list_sets.py) (おまけ)
+- 対象のリポジトリのインデックスツリーの情報を取得します
 ## 事前作業
 - 'pip install sickle'  を行っておいて下さい。
 ## 使い方
