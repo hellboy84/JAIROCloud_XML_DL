@@ -1,5 +1,5 @@
 # JAIROCloud_XML_DL
-JAIRO Cloudで公開しているリポジトリのメタデータのXMLを取得するPythonプログラムです。
+JAIRO Cloudで公開しているリポジトリのメタデータのXMLを取得するPythonプログラム(JCmetadataDL.py)です。
 
 # [JCmetadataDL.py](https://github.com/hellboy84/JAIROCloud_XML_DL/blob/main/JCmetadataDL.py)
 ## 事前作業
